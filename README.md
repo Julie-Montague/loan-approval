@@ -19,7 +19,7 @@ The dataset is can be obtained from Kaggle and contains variables of different f
    - previous_loan_defaults_on_file - Indicator of previous loan defaults - Categorical
    - loan_status (target variable) - Loan approval status: 1 = approved; 0 = rejected - Integer
 # NOTEBOOK STRUCTURE
-1. EDA Notebook:
+1. Exploratoty Data Analysis Notebook:
      - Categorical data EDA
      - Numerical data EDA
      - Correlation plots
