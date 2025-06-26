@@ -1,4 +1,4 @@
-# LOAN APPROVAL PREDICTION MODEL
+# LOAN APPROVAL PREDICTION
 # OVERVIEW
 This is a supervised machine learning project that uses the kaggle loan approval dataset to compare several models' performance. The goal is to compare different machine learning models to achieve the highest model performance during prediction.
 # DATASET
