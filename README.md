@@ -18,7 +18,8 @@ The dataset contains loan application records with applicant, financial, and cre
 ### Target Variable
 - `loan_status`: Loan approval status  
   - `1` = Approved  
-  - `0` = Rejected  
+  - `0` = Rejected
+![Target Distrbution](images/target_distribution.png)
 
 ### Main Features
 - `person_age`: Applicant age
