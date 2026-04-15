@@ -19,6 +19,7 @@ The dataset contains loan application records with applicant, financial, and cre
 - `loan_status`: Loan approval status  
   - `1` = Approved  
   - `0` = Rejected
+    
 ![Target Distrbution](images/target_distribution.png)
 
 ### Main Features
