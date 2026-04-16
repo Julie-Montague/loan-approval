@@ -119,6 +119,7 @@ Model performance was evaluated using classification metrics such as:
 - Recall
 - F1-score
 - ROC-AUC
+- Gini Score
 
 Since loan approval prediction may involve class imbalance, F1-score and recall are especially useful because they provide more information than accuracy alone.
 
@@ -134,33 +135,6 @@ Since loan approval prediction may involve class imbalance, F1-score and recall 
 | KNN Classifier | 0.56 | 78.1% | 66.8% | 65.6% | 66.2% | 85.1% |
 | Logistic Regression | 0.56 | 77.8% | 57.5% | 70.5% | 63.6% | 81.8% |
 | Naive Bayes | 0.42 | 70.8% | 45.5% | 63.2% | 52.9% | 74.9% |
-
-## 9. Skills Demonstrated
-This project demonstrates the following technical skills:
-
-### Data Processing
-- Loaded and explored structured tabular data using Python.
-- Cleaned the dataset by checking missing values, duplicates, and inconsistent categories.
-- Encoded categorical variables for machine learning models.
-- Handled outliers and prepared numerical features.
-- Applied resampling techniques to address class imbalance.
-
-### Exploratory Data Analysis
-- Analyzed categorical and numerical variables.
-- Created distribution plots and correlation visualizations.
-- Investigated relationships between loan applicant features and approval outcomes.
-- Used visual analysis to support preprocessing and modelling decisions.
-
-### Machine Learning
-- Built a supervised classification pipeline.
-- Compared multiple machine learning models.
-- Evaluated models using classification metrics.
-- Interpreted model performance to identify the strongest approach.
-
-### Portfolio and Documentation
-- Organized the project into separate notebooks for EDA and modelling.
-- Documented the dataset, workflow, tools, models, and results.
-- Presented the project in a clear format suitable for technical review.
 
 ## 10. Project Files
 ```text
