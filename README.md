@@ -5,7 +5,7 @@ This project demonstrates an end-to-end data science workflow using Python to pr
 
 
 ## 2. Objectives
-The objectives of this project are to:
+The objectives of this project were to:
   1. Understand the structure and quality of the loan approval dataset.
   2. Analyze applicant, financial, credit history, and loan-related variables.
   3. Prepare the dataset for machine learning through cleaning, encoding, and transformation.
@@ -14,7 +14,7 @@ The objectives of this project are to:
   6. Evaluate model performance using appropriate classification metrics.
 
 ## 3. Technical Focus
-This project highlights the use of Python as a data processing language for a machine learning task. Python was used to:
+This project highlighted the use of Python as a data processing language for a machine learning task. Python was used to:
 
   -  Load and inspect structured tabular data.
   -  Explore numerical and categorical variables.
@@ -23,7 +23,6 @@ This project highlights the use of Python as a data processing language for a ma
   -  Handle outliers and class imbalance.
   -  Train and compare classification models.
   -  Evaluate model performance using standard classification metrics.
-  -  Document results in a clear and reproducible format.
 
 ## 4. Dataset Description
 The dataset contains loan application records with applicant, financial, and credit-related variables.
@@ -59,21 +58,21 @@ The dataset contains loan application records with applicant, financial, and cre
 | Data Visualization | Matplotlib, Seaborn |
 | Machine Learning | GradientBoosting, RandomForest, DecisionTree, Logistic Regression, Naive Bayes |
 | Development Environment | Jupyter Notebook |
-| Version Control | Git, Github |
+| Version Control | Github |
 
 ## 5. Project Workflow
 
-The implementation is organized into two main notebooks:
+The implementation was organized into two main notebooks:
   1. Exploratory Data Analysis
-Focuses on understanding the dataset, visualizing feature distributions, checking relationships between variables, and identifying potential data quality issues.
+Focused on understanding the dataset, visualizing feature distributions, checking relationships between variables, and identifying potential data quality issues.
   2. Preprocessing and Modelling
-Focuses on preparing the dataset for machine learning, training classification models, evaluating performance, and comparing results.
+Focused on preparing the dataset for machine learning, training classification models, evaluating performance, and comparing results.
 
 ### 5.1 Exploratory Data Analysis
 
 Notebook link : ![EDA Notebook](https://github.com/Julie-Montague/loan-approval/blob/main/Exploratory%20Data%20Analysis.ipynb)
 
-The exploratory notebook focuses on understanding the dataset before modelling. This included:
+The exploratory notebook focused on understanding the dataset before modelling. This included:
 
   - Checking dataset shape, column names, and data types.
   - Reviewing summary statistics for numerical variables.
@@ -112,7 +111,7 @@ The following models were trained and evaluated:
 - Naive Bayes Classifier
 
 ## 7. Evaluation Approach
-Model performance was evaluated using classification metrics such as:
+Model performance was evaluated using the following classification metrics :
 
 - Accuracy
 - Precision
