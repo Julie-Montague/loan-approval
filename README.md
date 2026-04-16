@@ -49,7 +49,7 @@ The dataset contains loan application records with applicant, financial, and cre
 - `credit_score`: Applicant credit score
 - `previous_loan_defaults_on_file`: Previous default history
 
-## 5. Tools and Technologies Used
+## 5. Tech Stack
 
 | Category | Tools | 
 |---|---:|
