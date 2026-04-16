@@ -87,7 +87,8 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
 Summary Findings :
   - The data did not have any missing values or duplicated rows
   - Using **Interquartile Range Methos**, some of the numerical outliers showeed presence of extreme values which led to implementation of outlier handling 
-<img width="489" height="267" alt="image" src="https://github.com/user-attachments/assets/3e958424-44fc-44b7-8090-5a8e2be32a22" />
+<img width="577" height="298" alt="image" src="https://github.com/user-attachments/assets/908ac71f-bf8a-4475-9b53-62fc5d759ffb" />
+
 
 ### 5.2 Data Preprocessing and Modelling
 The preprocessing and modelling notebook prepares the data for machine learning. This included:
