@@ -52,8 +52,9 @@ The dataset contains loan application records with applicant, financial, and cre
 - `previous_loan_defaults_on_file`: Previous default history
 
 ## 4. Tools and Technologies Used
+
 | Category | Tools | 
-|---|---:|---:|
+|---|---:|
 | Programming Language | Python |
 | Data Processing | Pandas, Numpy |
 | Data Visualization | Matplotlib, Seaborn |
@@ -85,7 +86,9 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
   - Identifying potential outliers and unusual values.
     
 Summary Findings :
-  - The data did not have any missing values or duplicated rows
+  - The data consists of 45k rows with 9 numrical columns and 5 categorical columns
+![summary_stats](images/summary_stats)
+
   - Using **Interquartile Range Method**, some of the numerical outliers showeed presence of extreme values which led to implementation of outlier handling
   - Using **Variance Inflation Factor**, `person_age` had a very high factor of 156
 
