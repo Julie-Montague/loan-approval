@@ -1,7 +1,7 @@
 # Loan Approval Prediction Using Python and Machine Learning
 
 ## 1. Project Overview
-This project demonstrates an end-to-end data science workflow using Python to predict whether a loan application will be approved or rejected. The project uses structured loan application data and applies exploratory data analysis, data preprocessing, feature transformation, class imbalance handling, supervised machine learning, and model evaluation.
+This project demonstrates an end-to-end data science workflow using Python to predict whether a loan application will be approved or rejected. The project uses structured loan application data (sourced from kaggle) and applies exploratory data analysis, data preprocessing, feature transformation, class imbalance handling, supervised machine learning, and model evaluation.
 
 
 ## 2. Objectives
@@ -12,7 +12,6 @@ The objectives of this project are to:
   4. Address class imbalance using resampling techniques.
   5. Train and compare multiple supervised classification models.
   6. Evaluate model performance using appropriate classification metrics.
-  7. Present the workflow and results in a clear technical portfolio format.
 
 ## 3. Technical Focus
 This project highlights the use of Python as a data processing language for a machine learning task. Python was used to:
@@ -58,7 +57,7 @@ The dataset contains loan application records with applicant, financial, and cre
 | Programming Language | Python |
 | Data Processing | Pandas, Numpy |
 | Data Visualization | Matplotlib, Seaborn |
-| Machine Learning | Matplotlib, Seaborn |
+| Machine Learning | GradientBoosting, RandomForest, DecisionTree, Logistic Regression, Naive Bayes |
 | Development Environment | Jupyter Notebook |
 | Version Control | Git, Github |
 
@@ -80,7 +79,7 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
   - Reviewing summary statistics for numerical variables.
   - Exploring categorical variable distributions.
   - Analyzing the distribution of the target variable.
-  - Comparing loan approval outcomes across applicant and loan characteristics.
+  - Comparing loan approval outcomes across applicant characteristics.
   - Creating visualizations to identify patterns in income, credit score, loan amount, loan intent, and previous default history.
   - Checking correlations between numerical variables.
   - Identifying potential outliers.
@@ -106,11 +105,10 @@ The insights and summary from this step are organized on : ![preprocessing_summa
 ## 6. Machine Learning Models Compared
 The following models were trained and evaluated:
 
+- Gradient Boosting
 - Random Forest Classifier
 - Decision Tree Classifier
-- LightGBM Classifier
-- Gradient Boosting Classifier
-- K-Nearest Neighbors
+- Logistic Regression
 - Naive Bayes Classifier
 
 ## 7. Evaluation Approach
@@ -120,24 +118,24 @@ Model performance was evaluated using classification metrics such as:
 - Precision
 - Recall
 - F1-score
-- Confusion matrix
+- ROC-AUC
 
 Since loan approval prediction may involve class imbalance, F1-score and recall are especially useful because they provide more information than accuracy alone.
 
 ## 8. Key Results
 
-![Model Comparison](images/model_comparison.png)
+![Model Comparison](images/f1_score_comparison.png)
 
-Add a table like this:
 
-| Model | Accuracy | Precision | Recall | F1-Score |
+| Model | Gini Score | ROC_AUC | Precision | Recall | F1-Score | Accuracy |
 |---|---:|---:|---:|---:|
-| Random Forest | Add value | Add value | Add value | Add value |
-| Decision Tree | Add value | Add value | Add value | Add value |
-| LightGBM | Add value | Add value | Add value | Add value |
-| Gradient Boosting | Add value | Add value | Add value | Add value |
-| KNN | Add value | Add value | Add value | Add value |
-| Naive Bayes | Add value | Add value | Add value | Add value |
+| Gradient Boosting | 0.67 | 83.6% | 85.9% | 70.5% | 77.5% | 90.9% |
+| Random Forest | 0.65 | 82.3% | 83.6% | 68.5% | 75.3% | 90.0% |
+| Decision Tree | 0.64 | 81.8% | 78.7% | 68.9% | 73.5% | 88.9% |
+| KNN Classifier | 0.56 | 78.1% | 66.8% | 65.6% | 66.2% | 85.1% |
+| Logistic Regression | 0.56 | 77.8% | 57.5% | 70.5% | 63.6% | 81.8% |
+| Naive Bayes | 0.42 | 70.8% | 45.5% | 63.2% | 52.9% | 74.9% |
+
 
 ## 9. Skills Demonstrated
 This project demonstrates the following technical skills:
