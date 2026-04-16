@@ -124,7 +124,7 @@ Since loan approval prediction may involve class imbalance, F1-score and recall 
 
 ## 9. Key Results
 
-![Model Comparison](images/f1_score_comparison.png)
+![Model Comparison](images/F1_model_comparison.png)
 
 | Model | Gini Score | ROC_AUC | Precision | Recall | F1-Score | Accuracy |
 |---|---:|---:|---:|---:| ---:| ---:|
