@@ -146,4 +146,4 @@ loan-approval/
 ├── README.md
 └── images/
     ├── target_distribution.png
-    └── model_comparison.png
+    └── f1_score_comparison.png
