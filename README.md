@@ -126,16 +126,14 @@ Since loan approval prediction may involve class imbalance, F1-score and recall 
 
 ![Model Comparison](images/f1_score_comparison.png)
 
-
 | Model | Gini Score | ROC_AUC | Precision | Recall | F1-Score | Accuracy |
-|---|---:|---:|---:|---:|
+|---|---:|---:|---:|---:| ---:| ---:|
 | Gradient Boosting | 0.67 | 83.6% | 85.9% | 70.5% | 77.5% | 90.9% |
 | Random Forest | 0.65 | 82.3% | 83.6% | 68.5% | 75.3% | 90.0% |
 | Decision Tree | 0.64 | 81.8% | 78.7% | 68.9% | 73.5% | 88.9% |
 | KNN Classifier | 0.56 | 78.1% | 66.8% | 65.6% | 66.2% | 85.1% |
 | Logistic Regression | 0.56 | 77.8% | 57.5% | 70.5% | 63.6% | 81.8% |
 | Naive Bayes | 0.42 | 70.8% | 45.5% | 63.2% | 52.9% | 74.9% |
-
 
 ## 9. Skills Demonstrated
 This project demonstrates the following technical skills:
