@@ -88,20 +88,20 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
 Summary Findings :
 The key insights have been organized on : ![summary_stats](Exploratory_Data_Analysis_Summary.pdf)
 
-
 ### 5.2 Data Preprocessing and Modelling
 The preprocessing and modelling notebook prepares the data for machine learning. This included:
 
-- Capping age values greater than 100 to 100 years
-- Converting the age column to binned categories
-- Maximum work experience was capped at 55 years
-- Checking duplicate records.
+- Handling missing records and removing duplicate records if present.
+- Handling outliers in numerical columns.
 - Reducing rare categories where necessary.
 - Encoding categorical variables.
-- Handling outliers.
+- Log transformation of highly skewed numerical columns
 - Splitting the data into training and testing sets.
-- Applying resampling techniques to address class imbalance.
+- Applying resampling techniques to address class imbalance. For this project SMOTE was applied.
+- Scaling of numerical columns. Standard Scaler was used
 - Training and comparing multiple classification models.
+
+The insights and summary from this step are organized on : ![preprocessing_summary](Preprocessing_and_Modellling_Summary.pdf)
 
 ## 6. Machine Learning Models Compared
 The following models were trained and evaluated:
