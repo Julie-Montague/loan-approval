@@ -49,7 +49,7 @@ The dataset contains loan application records with applicant, financial, and cre
 - `credit_score`: Applicant credit score
 - `previous_loan_defaults_on_file`: Previous default history
 
-## 4. Tools and Technologies Used
+## 5. Tools and Technologies Used
 
 | Category | Tools | 
 |---|---:|
@@ -60,7 +60,7 @@ The dataset contains loan application records with applicant, financial, and cre
 | Development Environment | Jupyter Notebook |
 | Version Control | Github |
 
-## 5. Project Workflow
+## 6. Project Workflow
 
 The implementation was organized into two main notebooks:
   1. Exploratory Data Analysis
@@ -68,7 +68,7 @@ Focused on understanding the dataset, visualizing feature distributions, checkin
   2. Preprocessing and Modelling
 Focused on preparing the dataset for machine learning, training classification models, evaluating performance, and comparing results.
 
-### 5.1 Exploratory Data Analysis
+### 6.1 Exploratory Data Analysis
 
 Notebook link : ![EDA Notebook](https://github.com/Julie-Montague/loan-approval/blob/main/Exploratory%20Data%20Analysis.ipynb)
 
@@ -86,7 +86,7 @@ The exploratory notebook focused on understanding the dataset before modelling. 
 Summary Findings :
 The key insights have been organized on : ![summary_stats](Exploratory_Data_Analysis_Summary.pdf)
 
-### 5.2 Data Preprocessing and Modelling
+### 6.2 Data Preprocessing and Modelling
 The preprocessing and modelling notebook prepares the data for machine learning. This included:
 
 - Handling missing records and removing duplicate records if present.
@@ -101,7 +101,7 @@ The preprocessing and modelling notebook prepares the data for machine learning.
 
 The insights and summary from this step are organized on : ![preprocessing_summary](Preprocessing_and_Modellling_Summary.pdf)
 
-## 6. Machine Learning Models Compared
+## 7. Machine Learning Models Compared
 The following models were trained and evaluated:
 
 - Gradient Boosting
@@ -110,7 +110,7 @@ The following models were trained and evaluated:
 - Logistic Regression
 - Naive Bayes Classifier
 
-## 7. Evaluation Approach
+## 8. Evaluation Approach
 Model performance was evaluated using the following classification metrics :
 
 - Accuracy
@@ -122,7 +122,7 @@ Model performance was evaluated using the following classification metrics :
 
 Since loan approval prediction may involve class imbalance, F1-score and recall are especially useful because they provide more information than accuracy alone.
 
-## 8. Key Results
+## 9. Key Results
 
 ![Model Comparison](images/f1_score_comparison.png)
 
