@@ -88,7 +88,7 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
 Summary Findings :
   - The data consists of 45k rows with 9 numrical columns and 5 categorical columns
     
-![summary_stats](images/summary_stats.png)
+![summary_stats](images/data_overview.png)
 
   - Using **Interquartile Range Method**, some of the numerical outliers showeed presence of extreme values which led to implementation of outlier handling
   - Using **Variance Inflation Factor**, `person_age` had a very high factor of 156
