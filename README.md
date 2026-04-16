@@ -86,8 +86,8 @@ The exploratory notebook focuses on understanding the dataset before modelling. 
     
 Summary Findings :
   - The data did not have any missing values or duplicated rows
-  - Using **Interquartile Range Methos**, some of the numerical outliers showeed presence of extreme values which led to implementation of outlier handling 
-<img width="577" height="298" alt="image" src="https://github.com/user-attachments/assets/908ac71f-bf8a-4475-9b53-62fc5d759ffb" />
+  - Using **Interquartile Range Method**, some of the numerical outliers showeed presence of extreme values which led to implementation of outlier handling
+  - Using **Variance Inflation Factor**, `person_age` had a very high factor of 156
 
 
 ### 5.2 Data Preprocessing and Modelling
