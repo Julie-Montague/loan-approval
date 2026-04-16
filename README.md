@@ -92,7 +92,9 @@ The key insights have been organized on : ![summary_stats](Exploratory_Data_Anal
 ### 5.2 Data Preprocessing and Modelling
 The preprocessing and modelling notebook prepares the data for machine learning. This included:
 
-- Checking and handling missing values.
+- Capping age values greater than 100 to 100 years
+- Converting the age column to binned categories
+- Maximum work experience was capped at 55 years
 - Checking duplicate records.
 - Reducing rare categories where necessary.
 - Encoding categorical variables.
